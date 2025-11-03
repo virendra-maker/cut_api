@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: cut-api
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: python server.py
+    plan: free
+    autoDeploy: true
+    envVars:
+      PORT: "10000"   # Render uses $PORT, but we set it explicitly
