@@ -1,3 +1,8 @@
-pip install tornado opencv-python pydrive2 google-auth google-auth-oauthlib google-auth-httplib2 numpy pillow -r requirements.txt
-# OR just:
-pip freeze > requirements.txt
+tornado==6.4
+opencv-python==4.10.0.84
+pydrive2==1.19.0
+google-auth==2.35.0
+google-auth-oauthlib==1.2.1
+google-auth-httplib2==0.2.0
+numpy==2.1.2
+pillow==10.4.0
